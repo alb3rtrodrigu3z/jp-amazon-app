@@ -11,7 +11,7 @@ const BestSellers = () => {
     setIsLoading(true);
     setIsError(false);
 
-    fetch("https://amazon-product-api.com/bestsellers", {
+    fetch("https://amazon-affiliate-api.com/bestsellers", {
       headers: {
         "Content-Type": "application/json",
         "Authorization": `Bearer ${API_KEY}`
